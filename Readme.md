@@ -19,4 +19,4 @@ Execute `RAE2822_pga.py` to conduct manifold learning on the preprocessed airfoi
 
 ### Step 3: Conduct Optimization
 
-Utilize the data obtained from manifold learning to perform the robust gradient-based optimization.
+Run either `RAE2822Tran_Grassmannian_SubSonic.py` or `RAE2822Tran_Grassmannian_TranSonic.py` to optimize the data after manifold learning.
