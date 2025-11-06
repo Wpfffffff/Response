@@ -2,7 +2,7 @@
 RAE2822
 -----------
 Optimization for transonic foil <RAE2822> by Grassmannian manifold
-author : chenyifu
+
 Version: python 3 version
 """
 # ======================================================================
@@ -55,13 +55,13 @@ outputDirectory = './results'
 
 nFlowCases = 1
 # mach number
-mach = [0.73] # RAE2822
+mach = [0.19] # RAE2822
 # angle of attack
-alpha = [2.0]
+alpha = [0.4499]
 # design CL coefficient
-CL_star = [0.7827]
+CL_star = [0.3]
 # reynold number
-reynolds = [7.93e6]
+reynolds = [5e6]
 # design Cm coefficient
 CM_star = [0.045]
 # Weight 
